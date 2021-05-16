@@ -1,0 +1,54 @@
+img {
+    height: 70px;
+    display: flex;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+    }
+p {
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+        
+    }
+
+/*.center {
+/*    /*This below is to make the div centered horizantally */
+/*    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    position: relative;
+    /*This below is to make customize the div to width/height */
+/*    width: 500px;
+    height: 50px;
+    /*This below is for borders and text customization */
+/*    border: 3px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background: darkgrey;
+    font-size: 30px;         
+    }*/
+body{
+    background-image:url("images/webimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    }
+
+.settings {
+    float: bottom-left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    }
+
+.profilepic {
+    float: right;
+    }
+
+a {
+    text-decoration: none;
+    color: inherit;
+      
+    }
